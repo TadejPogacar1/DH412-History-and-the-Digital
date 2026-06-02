@@ -21,7 +21,4 @@ conda env create -f environment.yml
 conda activate ballet_env
 ```
 
-## Usage
-
-Run the notebooks from the project root. Start with `Data_Preprocessing_and_Analysis.ipynb` for the dataset overview, then use the arabesque notebooks for movement and style analysis.
 
