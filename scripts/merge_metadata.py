@@ -1,7 +1,7 @@
 import pandas as pd
 
-pose_df = pd.read_csv("Data/filtered_arabesque_poses_master.csv")
-meta_df = pd.read_csv("Data/final_skeleton_dataset.csv")
+pose_df = pd.read_csv("../Data/filtered_arabesque_poses_master.csv")
+meta_df = pd.read_csv("../Data/final_skeleton_dataset.csv")
 
 meta_df['match_video'] = meta_df['filename'].str.split('/').str[-1]
 

@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 
 BASE_DIR = Path("results")
-OUTPUT_CSV_PATH = "Data/filtered_arabesque_poses_master.csv"
+OUTPUT_CSV_PATH = "../Data/filtered_arabesque_poses_master.csv"
 
 all_filtered_data = []
 
