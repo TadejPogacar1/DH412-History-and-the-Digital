@@ -83,19 +83,3 @@ conda activate ballet_env
 
 Important packages include `pandas`, `numpy`, `matplotlib`, `opencv-python`, `moviepy`, `mmpose`, `mmdet`, and `scikit-learn`.
 
-## Suggested Workflow
-
-1. Run `Data_Preprocessing_and_Analysis.ipynb` to understand the dataset and metadata-cleaning decisions.
-2. Use `pipeline_arabesque.ipynb` or the scripts in `scripts/` to extract movement features from videos.
-3. Run `arabesque_analysis.ipynb` for the main movement-evolution analysis.
-4. Use `arabesque_country_before2011.ipynb` and `arabesque_school_2012-2026.ipynb` for tradition/style-specific comparisons.
-5. Check `visualization/` and `results/` for generated figures, frames, skeletons, and metric files.
-
-## Research Focus
-
-The project explores how ballet technique changes historically and institutionally by asking questions such as:
-
-- How has the arabesque position changed across decades?
-- Do different countries or ballet traditions show different arabesque geometries?
-- Are school-style differences visible in pose metrics after 2012?
-- How can pose-estimation tools support digital-history research on dance?
