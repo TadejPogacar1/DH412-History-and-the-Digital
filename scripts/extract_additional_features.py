@@ -67,8 +67,8 @@ def calculate_new_angles(row):
         return pd.Series({'thoracic_neck_angle': np.nan, 'support_torso_angle': np.nan})
 
 if __name__ == "__main__":
-    csv_input_path = 'Data/arabesque_analysis_ready.csv'
-    csv_output_path = 'Data/arabesque_analysis_ready_updated.csv'
+    csv_input_path = '../Data/arabesque_analysis_ready.csv'
+    csv_output_path = '../Data/arabesque_analysis_ready_updated.csv'
     
     print(f"Loading: {csv_input_path}")
     df = pd.read_csv(csv_input_path)
