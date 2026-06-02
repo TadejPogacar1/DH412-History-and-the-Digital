@@ -1,9 +1,6 @@
 # DH412 History and the Digital
 
-This repository contains a digital-history project on ballet technique at the Prix de Lausanne. The project focuses especially on the arabesque position and asks how ballet movement, training background, country/tradition, and competition history change across time.
-
-The work combines manually cleaned competition metadata, candidate records, video-based pose extraction, and visual/statistical analysis of arabesque geometry.
-
+This repository contains a digital-history project on ballet technique at the Prix de Lausanne. 
 ## Project Structure
 
 ### `Data/`
